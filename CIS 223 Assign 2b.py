@@ -1,3 +1,6 @@
+"""
+code to reverse a string
+"""
 def stringReverse(string):
     stringList = stringToList(string) #converts to mutable list
     reverseList = []
