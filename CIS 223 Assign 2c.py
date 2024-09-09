@@ -1,5 +1,5 @@
 """
-with a sequence of n distinct integers listed in increasing order, find two integers that have a difference of k
+with a sequence of n distinct integers listed in increasing order, find two integers that have a difference of k with a recursive function
 """
    
 def findDifference(s: list[int], k: int): #ex: s = [2, 7, 9, 12, 25], k = 2
