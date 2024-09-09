@@ -17,5 +17,3 @@ def addEvenHelper(lb, ub, evenSum):
     else:
         evenSum += lb
         return addEvenHelper(lb+2, ub, evenSum)
-    
-print(addEven(7))
