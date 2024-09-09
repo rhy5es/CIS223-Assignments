@@ -16,6 +16,3 @@ def findDifferenceHelper(s: list[int], k: int, pointer: int):
             else:
                 continue #continue on to next number. ex: 0 != 7, 0 != 9, etc etc
         return findDifferenceHelper(s, k, pointer + 1)
-    
-s = [2, 7, 9, 12, 25]
-print(findDifference(s, 2))
